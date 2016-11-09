@@ -2,6 +2,7 @@ require "cuba"
 require "cuba/contrib"
 require "mote"
 require "cuba/safe"
+require "pry"
 
 Cuba.plugin Cuba::Prelude
 Cuba.plugin Cuba::Mote
@@ -20,6 +21,19 @@ Cuba.define do
 
     on "home" do
       render "home"
+    end
+
+    on "thanks" do
+      render "thanks"
+    end
+  end
+
+  on post do
+    on "submit" do
+      mail = req.params["mail"]
+      price = req.params["price"]
+      p "AAAGAIN saving #{mail} and #{price}"
+      res.redirect "/thanks"
     end
   end
 end
