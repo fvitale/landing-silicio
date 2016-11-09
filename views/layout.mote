@@ -26,47 +26,9 @@
   </head>
 
   <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <a class="navbar-brand" id="landing-submit" href="#">¡Pedirlo ahora!</a>
-        </div>
-      </div>
-      <!-- /.container -->
-    </nav>
 
-    <!-- Page Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-sm-12 info">
-          <h1>Landing Silicio</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, iusto, unde, sunt incidunt id sapiente rerum soluta voluptate harum veniam fuga odit ea pariatur vel eaque sint sequi tenetur eligendi.</p>
-          <hr>
-          <form id="landing-form" action="submit" method="post">
-            <h3>¿Cuánto pagarías por esta app?</h3>
-            <input type="radio" name="valor" value="0" required> Nada<br>
-            <hr>
-            <input type="radio" name="valor" value="25/m"> Hasta $25/mes<br>
-            <input type="radio" name="valor" value="25/a"> Hasta $25/año<br>
-            <input type="radio" name="valor" value="25/i"> Hasta $25/ilimitado<br>
-            <hr>
-            <input type="radio" name="valor" value="75/m"> Hasta $75/mes<br>
-            <input type="radio" name="valor" value="75/a"> Hasta $75/año<br>
-            <input type="radio" name="valor" value="75/i"> Hasta $75/ilimitado<br>
-            <hr>
-            <input type="radio" name="valor" value="100/m"> $100 o más/mes<br>
-            <input type="radio" name="valor" value="100/a"> $100 o más/año<br>
-            <input type="radio" name="valor" value="100/i"> $100 o más/ilimitado<br>
-            <hr>
-            <h3>¿A dónde preferís que te enviemos la app?</h3>
-            Correo electrónico: <input type="text" name="mail" required><br>
-          </form>
-        </div>
-      </div>
-      <!-- /.row -->
-    </div>
+    {{ content }}
+
     <!-- /.container -->
     <!-- jQuery -->
     <script type="text/javascript" src="js/jquery.js"></script>
