@@ -1,4 +1,3 @@
-require "cuba"
 require "cuba/contrib"
 require "mote"
 require "cuba/safe"
