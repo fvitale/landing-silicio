@@ -10,4 +10,12 @@ namespace :db do
       Sequel::Migrator.run(DB, "db/migrations")
     end
   end
+
+  desc "Get our data"
+  task :retrieve do
+    puts "List of landed users:"
+    DB['select * from landed_users'].each do |row|
+      p row
+    end
+  end
 end
