@@ -1,4 +1,3 @@
-# cat config.ru
-require "./app"
-
+require './boot'
+require './app'
 run Cuba

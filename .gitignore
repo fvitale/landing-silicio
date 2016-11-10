@@ -1,0 +1,15 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore local env file
+env.rb
+
+#Ignore Stupid Finder Files
+.DS_Store
+
+# Ignore local rspec config
+.rspec
+.ruby-version
+.rvmrc
+
+log
