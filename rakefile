@@ -1,3 +1,4 @@
-require "./app"
+require 'cuba'
+require './boot'
 
 Dir.glob('lib/tasks/*.rake').each { |r| import r }
