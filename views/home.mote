@@ -1,15 +1,29 @@
 <div class="container">
   <div class="row">
     <div class="col-md-6 col-sm-12 info">
-      <h1>Landing Silicio</h1>
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-        <li>Magni, iusto, unde, sunt incidunt id sapiente rerum soluta voluptate.</li>
-        <li>Harum veniam fuga odit ea pariatur vel eaque sint sequi tenetur eligendi.</li>
+      <h1 style="color:#000080;font-weight: bold;text-align: center;">Contador de plazos WEB</h1>
+      <ul style="font-size: 120%;text-align: justify;">
+        <li>Es una aplicación para calcular plazos legales. <br>
+        <li>Solo cargando la fecha de notificación, y el plazo establecido. </li>
+        <li>Su <b>calendario</b> quedará correctamente cargado, teniendo en cuenta,
+            solo los días hábiles, descartando feriados. </li>
       </ul>
       <hr>
+            <h3>Dejará de contar manualmente los días </h3>
+
+            <p style="color:rgb(161, 0, 0);font-size: 150%;">&nbsp;&nbsp;&nbsp;&nbsp; ¡¡y ahorrará preciado tiempo!!</p>
+               <br>
+               <h4>&nbsp;&nbsp;&nbsp;&nbsp; Se le notificará en la misma aplicación y por: <h4>
+
+               <li>Google calendar &nbsp;&nbsp; <img src="/images/GC_logo.png" alt="logoGC" style="padding: 0 30px;" ></li>
+               <li>Email &nbsp;&nbsp; <img src="/images/email.png" alt="email"  style="padding: 0 30px;"" > </li>
+
+
+            <br>
+
+      <hr>
       <form id="landing-form" action="submit" method="post">
-        <h3>¿Cuánto pagarías por esta app?</h3>
+        <h3 style=" text-decoration: underline;">¿Cuánto pagarías por esta app?</h3>
         <div class="row">
           <div class="col-md-6">
             <div class="radio">
@@ -47,11 +61,11 @@
           </div>
         </div>
         <hr>
-        <h3>¿A dónde preferís que te enviemos la app?</h3>
-        <label for="mail">Correo electrónico:</label>
+
+        <label for="mail">Registrá tu Correo electrónico:</label>
         <input type="email" class="form-control" id="mail" name="mail" required>
         <hr>
-        <button type="submit" class="btn btn-lg btn-primary btn-block">¡Pedirlo ahora!</button>
+        <button style="background:orange;border-color:white;" type="submit" class="btn btn-lg btn-primary btn-block">Comenzar!!</button>
       </form>
     </div>
   </div>
